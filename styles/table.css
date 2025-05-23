@@ -1,0 +1,40 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.spec-table {
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background: rgba(30, 30, 30, 0.9);
+    border: 2px solid #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+}
+
+th {
+    background: #3a3a3a;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+td {
+    background: #2a2a2a;
+    font-size: 16px;
+    color: #f0f0f0;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease-in-out;
+}

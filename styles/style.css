@@ -1,0 +1,133 @@
+@import url("header.css");
+@import url("table.css");
+@import url("application.css");
+@import url("inquiry.css");
+@import url("particles.css");
+@import url("kirin-table.css");
+@import url("page-section");
+@import url("navigation.css");
+@import url("suggestion-kirin.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  width: 100%;
+  /* background-color: #0a0a0a; */
+  /* color: rgb(255, 255, 255); */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.linebreak {
+  width: 80%;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+
+.first-section,
+.second-section {
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #747474; */
+}
+
+/* .first-section h2 {
+  text-align: left;
+} */
+
+.printer {
+  /* width: auto; */
+  margin: 50px;
+}
+
+.first-section h1 {
+  color: #6b6b6b;
+  font-size: xx-large;
+}
+
+.first-section-article h2 {
+  text-align: left;
+  color: rgb(73, 101, 138);
+}
+
+.first-section-article {
+  width: 70%;
+}
+
+.third-section h2 {
+  text-align: left;
+  color: rgb(73, 101, 138);
+}
+
+.kirin-image-application {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.kirin-image-application img {
+  width: 700px;
+}
+
+.circle-design {
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  background-color: #669bfd;
+  position: absolute;
+  left: 100%;
+  top: 2%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  box-shadow: 15px 4px 20px 9px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 15px 4px 20px 9px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 15px 4px 20px 9px rgba(0, 0, 0, 0.33);
+}
+
+@media (max-width: 768px) {
+  .spec-table {
+    font-size: 14px;
+  }
+
+  .printer {
+    width: 80%;
+  }
+
+  .first-section h1 {
+    width: 380px;
+    text-align: center;
+  }
+
+  .table-container {
+    padding: 50px;
+  }
+
+  .kirin-image-application img {
+    width: 350px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+}
